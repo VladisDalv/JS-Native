@@ -1,3 +1,4 @@
+/*
 // Task 1
 
 let bulMeaningTr ='true';
@@ -37,6 +38,61 @@ let pen = true;
 let apple = false;
 let orange = true;
 
-let shouldGoToWork =`${key} && ${documents} && pen && apple || orange}` ;
+let shouldGoToWork = key && documents && pen && apple || orange;
 
 console.log(shouldGoToWork);
+
+// Task 5
+
+ let numUser = prompt('Insert the number');
+
+ if (numUser % 5 === 0 && numUser % 3 === 0) {
+    alert('FizBuz')
+} else if (numUser % 5 === 0) {
+     alert('Fiz');
+ } else if (numUser % 3 === 0) {
+     alert('Buz')
+ } else {
+     alert('number doesnt fit')
+ }
+
+
+ // Task 6
+
+let ageUser = prompt('Insert your age');
+
+ if (ageUser > 18) {
+     alert('Попей пивка');
+ } else if (ageUser <= 18 && ageUser >= 16) {
+     alert('Можешь выкурить сигаретку, только маме не говори');
+ } else if (ageUser < 16) {
+     alert(`Пей колу`);
+ } else {
+     alert('You entered an invalid value');
+ }
+*/
+
+ // Task 7
+
+let sideWorld = prompt('enter the cardinal direction');
+
+ switch (sideWorld) {
+     case 'юг':
+     case 'Юг':
+         console.log('на юг пойдешь счастье найдешь');
+         break;
+     case 'север':
+     case 'Север':
+         console.log('на север пойдешь много денег найдешь');
+         break;
+     case 'запад':
+     case 'Запад':
+         console.log('на запад пойдешь верного друга найдешь');
+         break;
+     case 'восток':
+     case 'Восток':
+         console.log('на восток пойдешь разработчиком станешь');
+         break;
+     default:
+         console.log('you entered wrong coordinates')
+ }
