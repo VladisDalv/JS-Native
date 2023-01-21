@@ -1,4 +1,5 @@
 /*
+/!*
 // Task 1
 
 let bulMeaningTr ='true';
@@ -70,7 +71,7 @@ let ageUser = prompt('Insert your age');
  } else {
      alert('You entered an invalid value');
  }
-*/
+*!/
 
  // Task 7
 
@@ -96,3 +97,12 @@ let sideWorld = prompt('enter the cardinal direction');
      default:
          console.log('you entered wrong coordinates')
  }
+*/
+
+ // ADVANCED level
+
+ // Task
+
+let userName = 'пОлИнА нАбЕрЕжНаЯ';
+
+ alert(`Hello ${userName.charAt(0).toUpperCase() + userName.slice(1).toLowerCase()}`);
