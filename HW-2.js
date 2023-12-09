@@ -101,8 +101,22 @@ let sideWorld = prompt('enter the cardinal direction');
 
  // ADVANCED level
 
- // Task
+ // Task 1
 
 let userName = 'пОлИнА нАбЕрЕжНаЯ';
 
  alert(`Hello ${userName.charAt(0).toUpperCase() + userName.slice(1).toLowerCase()}`);
+
+ // Task 2
+
+let userNumber = prompt('Insert the number');
+
+let unknown1 = prompt('how much to take away');
+
+let unknown2 = prompt('how much to add');
+
+let unknown3 = prompt('how much to multiply');
+
+let unknown4 = prompt('how much to divide');
+
+alert(`((((6 - 10) + 5) * 20) / 2 = 110)`)
